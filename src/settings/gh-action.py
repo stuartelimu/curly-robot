@@ -5,7 +5,7 @@ Build Settings for CI using github actions
 import environ
 
 # extend settings from base.py
-from movies.settings.base import *
+from src.settings.base import *
 
 env = environ.Env(
     # set casting, default value
