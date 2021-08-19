@@ -56,4 +56,5 @@ jobs:
           git pull # pull recent changes from github
           source env/bin/activate
           pip install -r requirements.txt
-          echo 'Deplyment was successful 🚀'
+          python manage.py collectstatic --noinput
+          echo 'Deployment was successful 🚀'
